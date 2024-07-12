@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif; 
+  margin: 2rem;
+}
+h1{
+  color: black;
+}
+h1.title {
+  font-size: 3em;
+  font-weight: bold;
+  color: #FF0000;
+  text-align: center;
+}
+
+#foodItems {
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid #ff0f0f;
+  border-radius: 5px;
+  
+}
+
+#foodItems ul {
+  list-style: none;
+  padding: 0;
+ 
+}
+
+#foodItems li {
+  margin: 0.5rem 0;
+  justify-content: center;
+  align-items: center;
+}
+
+#foodItems input[type="checkbox"] {
+  margin-right: 1rem;
+}
+
+#orderButton {
+  background-color: #ddd;
+  border:1px solid;
+  color: black;
+  padding: 1rem 2rem;
+  font-size: 1.2em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#orderButton:hover {
+  background-color: #ccc;
+}
+
+#foodImage {
+  width: 200px;
+  display: block;
+  margin: 1rem auto;
+}
+
+#orderId {
+  font-weight: bold;
+  margin-top: 1rem;
+}

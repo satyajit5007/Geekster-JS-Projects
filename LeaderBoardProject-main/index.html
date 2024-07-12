@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeaderBoard</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <h1 class="main_title">Leader-Board</h1>
+        <form class="main_form">
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="Last Name">
+            <input type="text" placeholder="Country">
+            <input type="number" placeholder="Player Score">
+            <button class="main_form-submit-btn">Add Player</button>
+        </form>
+        <p class="main_error-prompter">All fields are required</p>
+
+        <div class="main_scoreboard-wrapper">
+            <div class="main_scoreboard">
+                <div>
+                    <p class="main_player-name">Rohit Sharma</p>
+                    <p class="main_time-stamp">June 2022: 09:24:44</p>
+                </div>
+                <p class="main_player-country">India</p>
+                <p class="main_player-score">264</p>
+                <div class="main_scoreboard-btn-container">
+                    <button>&#x1f5d1;</button>
+                    <button>+5</button>
+                    <button>-5</button>
+                </div>
+            </div>
+
+            <div class="main_scoreboard">
+                <div>
+                    <p class="main_player-name">Virat Kohli</p>
+                    <p class="main_time-stamp">May 2022: 10:24:04</p>
+                </div>
+                <p class="main_player-country">India</p>
+                <p class="main_player-score">100</p>
+                <div class="main_scoreboard-btn-container">
+                    <button>&#x1f5d1;</button>
+                    <button>+5</button>
+                    <button>-5</button>
+                </div>
+            </div>
+            
+            <div class="main_scoreboard">
+                <div>
+                    <p class="main_player-name">M.S. Dhoni</p>
+                    <p class="main_time-stamp">Feb 2022: 19:24:44</p>
+                </div>
+                <p class="main_player-country">India</p>
+                <p class="main_player-score">95</p>
+                <div class="main_scoreboard-btn-container">
+                    <button>&#x1f5d1;</button>
+                    <button>+5</button>
+                    <button>-5</button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.user-card {
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.head {
+  margin-bottom: 20px;
+}
+
+.head .photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.sub {
+  flex-grow: 1;
+}
+
+.details {
+  margin-top: 20px;
+}
+
+.links {
+  margin-top: 20px;
+}
+
+.links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.links ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.links ul li i {
+  margin-right: 5px;
+}
+
+.username {
+  color: #0366d6;
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 600px) {
+  .head .photo {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+  }
+}
+h1{
+    margin-left: 30px;
+}
+
+#username{
+    margin-left: 30px;
+}
+
+#btn{
+    background-color: rgb(200, 245, 254);
+    border-color: red;
+    color: rgb(75, 80, 83);
+}

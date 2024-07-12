@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Age Calculator</h1>
+        <div class="input-container">
+            <label  for="birthdate">Enter your birthdate:</label>
+            <input type="date" id="birthdate">
+            <button onclick="calculateAge()">Calculate Age</button>
+        </div>
+        <div id="result" class="age-result">
+            <div class="age-box" id="years-box">Years: <span id="years"></span></div>
+            <div class="age-box" id="months-box">Months: <span id="months"></span></div>
+            <div class="age-box" id="days-box">Days: <span id="days"></span></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

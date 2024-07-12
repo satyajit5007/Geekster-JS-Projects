@@ -1,0 +1,71 @@
+body {
+    font-family: "Anta", sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://www.bing.com/th/id/OGC.84d11fc9a4a2220282aac7557dcfa6d1?pid=1.7&rurl=https%3a%2f%2fmedia.giphy.com%2fmedia%2fvRGJJ4d4bcXPUNy1eH%2fgiphy.gif&ehk=29BbvBjsQ78eEIhN3cLczlYOM5pXqSnZQXq%2fEvoHMXA%3d");
+    
+}
+
+
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgb(255, 0, 0);
+    text-align: center;
+    
+}
+
+h1{
+    color: maroon;
+}
+
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+input[type="date"] {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.age-result {
+    display: flex;
+    justify-content: center;
+}
+
+.age-box {
+    margin: 0 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+#result {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}

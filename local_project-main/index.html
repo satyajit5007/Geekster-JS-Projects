@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Project</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family: sans-serif;
+        }
+        form{
+            width: 400px;
+            margin: auto;
+            padding: 10px;
+            box-shadow: 0px 0px 10px 2px #ccc;
+        }
+        form h2{
+                padding: 20px;
+        }
+        form label{
+            display: block;
+            font-size: 16px;
+
+        }
+        form input{
+            width: 100%;
+            height: 30px;
+            margin-bottom: 10px;
+        }
+        form button {
+            padding: 10px 25px;
+            background-color: red;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .main{
+            width: 1320px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .items{
+            flex-basis: 23%;
+            margin: 1%;
+            box-shadow: 0px 0px 10px 2px #ccc;
+            padding: 1%;
+            position: relative;
+        }
+        .items h5 {
+            margin-top: 10px;
+        }
+        .items span{
+            position: absolute;
+            font-size: 30px;
+            top: 0;
+            right: 0;
+            cursor: pointer;
+        }
+        button{
+            display: table;
+            margin: auto;
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+    <form >
+        <h2>Enquiry Now</h2>
+        <label for="">Name</label>
+        <input type="text" name="uname" required>
+        <label for="">Email</label>
+        <input type="email" name="email" required>
+        <label for="">phone</label>
+        <input type="text" name="phone" required>
+        <button>Save</button>
+    </form>
+    <button id="call">clear all</button>
+
+    <div class="main">
+       
+    </div>    
+</body>
+<script>
+
+    let form=document.querySelector("form");
+    let main=document.querySelector(".main");
+    let call =document.querySelector("#call");
+    
+    form.addEventListener("submit",(event)=>{
+      let name=event.target.uname.value;
+      let email=event.target.email.value;
+      let phone=event.target.phone.value;
+      let checkStatus=0;
+
+
+      let userData=JSON.parse(localStorage.getItem("userDetails")) ?? [];
+      for(let v of userData){
+        if(v.email==email || v.phone==phone){
+            checkStatus=1;
+            break;
+        }
+      }
+
+      if(checkStatus==1){
+        alert("email or phone already exists")
+      }
+      else{
+        userData.push({
+        'name':name,
+        'email':email,
+        'phone':phone
+        })
+        localStorage.setItem("userDetails",JSON.stringify(userData))
+        event.target.reset();
+      }
+
+      displayData();
+      event.preventDefault();
+    
+    })    
+    
+    
+
+    let displayData=()=>{
+        let userData = JSON.parse(localStorage.getItem("userDetails")) ?? [];
+        let finalData ='';
+
+        userData.forEach( (element,i) => {
+
+            finalData+=`<div class="items">
+            <span onclick='removeData(${i})'>&times;</span>
+
+            <h5>Name</h5>
+            <div>${element.name}</div>
+
+            <h5>Email</h5>
+            <div>${element.email}</div>
+
+            <h5>Phone</h5>
+            <div>${element.phone}</div>
+        </div>`
+
+        });
+
+        main.innerHTML= finalData;
+
+    }
+    let removeData=(index)=>{
+        let userData=JSON.parse(localStorage.getItem("userDetails")) ?? [];
+        userData.splice(index,1);
+        localStorage.setItem("userDetails",JSON.stringify(userData))
+        displayData();
+        
+    }
+
+
+    call.addEventListener("click",()=>{
+        localStorage.clear("userDetails");
+        displayData();
+    })
+    
+    displayData();
+
+</script>
+
+</html>
