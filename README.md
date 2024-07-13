@@ -4,7 +4,7 @@ Welcome to the Geekster JS Projects repository! This repository showcases a coll
 
 ## 🌐 Project Links
 
-- [🍔 Age_Calculator](https://satyajit5007.github.io/Geekster-JS-Projects/BurgerKingfranchise/)
+- [🎂 Age_Calculator](https://satyajit5007.github.io/Geekster-JS-Projects/Age_Calculator/)
 - [🍔 BurgerKingfranchise](https://satyajit5007.github.io/Geekster-JS-Projects/BurgerKingfranchise/)
 - [💳 Card Project](https://satyajit5007.github.io/Geekster-JS-Projects/Card_Project/)
 - [⏰ Digital Clock](https://satyajit5007.github.io/Geekster-JS-Projects/DigitalClock/)
