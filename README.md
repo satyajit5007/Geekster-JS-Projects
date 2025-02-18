@@ -1,4 +1,4 @@
-# 🌟 Geekster JS Projects 🌟
+# 🌟 JS Projects 🌟
 
 Welcome to the Geekster JS Projects repository! This repository showcases a collection of JavaScript projects developed to enhance skills and demonstrate various concepts. Each project is accessible through the provided links.
 
