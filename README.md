@@ -4,18 +4,18 @@ Welcome to the Geekster JS Projects repository! This repository showcases a coll
 
 ## 🌐 Project Links
 
-- <a href="https://satyajit5007.github.io/Geekster-JS-Projects/Age_Calculator/" target="_blank">🎂 Age Calculator</a>
-- <a href="https://satyajit5007.github.io/Geekster-JS-Projects/BurgerKingfranchise/" target="_blank">🍔 BurgerKingfranchise</a>
-- <a href="https://satyajit5007.github.io/Geekster-JS-Projects/Card_Project/" target="_blank">💳 Card Project</a>
-- <a href="https://satyajit5007.github.io/Geekster-JS-Projects/DigitalClock/" target="_blank">⏰ Digital Clock</a>
-- <a href="https://satyajit5007.github.io/Geekster-JS-Projects/Github_Finder/" target="_blank">🔍 Github Finder</a>
-- <a href="https://satyajit5007.github.io/Geekster-JS-Projects/Infinite_Scroll/" target="_blank">♾️ Infinite Scroll</a>
-- <a href="https://satyajit5007.github.io/Geekster-JS-Projects/LeaderBoard%20Project/" target="_blank">🏆 LeaderBoard Project</a>
-- <a href="https://satyajit5007.github.io/Geekster-JS-Projects/Local_Storge/" target="_blank">📦 Local Storage</a>
-- <a href="https://satyajit5007.github.io/Geekster-JS-Projects/Light-Dark_Mode/" target="_blank">🌗 Light-Dark Mode</a>
-- <a href="https://satyajit5007.github.io/Geekster-JS-Projects/Moive_Search/" target="_blank">🎥 Movie Search</a>
-- <a href="https://satyajit5007.github.io/Geekster-JS-Projects/Pokedex/" target="_blank">📚 Pokedex</a>
-- <a href="https://satyajit5007.github.io/Geekster-JS-Projects/Sticky_Notes/" target="_blank">🗒️ Sticky Notes</a>
+- <a href="https://satyajit5007.github.io/JS-Projects/Age_Calculator/" target="_blank">🎂 Age Calculator</a>
+- <a href="https://satyajit5007.github.io/JS-Projects/BurgerKingfranchise/" target="_blank">🍔 BurgerKingfranchise</a>
+- <a href="https://satyajit5007.github.io/JS-Projects/Card_Project/" target="_blank">💳 Card Project</a>
+- <a href="https://satyajit5007.github.io/JS-Projects/DigitalClock/" target="_blank">⏰ Digital Clock</a>
+- <a href="https://satyajit5007.github.io/JS-Projects/Github_Finder/" target="_blank">🔍 Github Finder</a>
+- <a href="https://satyajit5007.github.io/JS-Projects/Infinite_Scroll/" target="_blank">♾️ Infinite Scroll</a>
+- <a href="https://satyajit5007.github.io/JS-Projects/LeaderBoard%20Project/" target="_blank">🏆 LeaderBoard Project</a>
+- <a href="https://satyajit5007.github.io/JS-Projects/Local_Storge/" target="_blank">📦 Local Storage</a>
+- <a href="https://satyajit5007.github.io/JS-Projects/Light-Dark_Mode/" target="_blank">🌗 Light-Dark Mode</a>
+- <a href="https://satyajit5007.github.io/JS-Projects/Moive_Search/" target="_blank">🎥 Movie Search</a>
+- <a href="https://satyajit5007.github.io/JS-Projects/Pokedex/" target="_blank">📚 Pokedex</a>
+- <a href="https://satyajit5007.github.io/JS-Projects/Sticky_Notes/" target="_blank">🗒️ Sticky Notes</a>
 
 
 ## 📝 Description
